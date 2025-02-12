@@ -1,0 +1,437 @@
+@font-face {
+    font-family: 'Graphik';
+    src: url(GraphikCompact-Black-Trial.otf);
+}
+body,*{
+    margin: 0;
+    font-family: 'Graphik';
+}
+.homewallpaper{
+    position: relative;
+    background-image: url(images/main_img.png);
+    background-size: 100rem 50rem;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 55rem;
+}
+.nav_bar{
+    display: flex;
+    padding: 3rem;
+    color: #fff;
+}
+.left_nav_bar{
+    display: flex;
+    width: 90rem;
+}
+.pepsico_logo{
+    margin-top: -1rem;
+}
+.pepsico_logo img{
+    width: 10rem;
+    
+}
+.nav_links{
+    display: flex;
+    top: 3rem;
+    align-items: center;
+}
+.nav_links ul{
+list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    margin-right: 2rem;
+}
+.right_nav_bar{
+    display: flex;
+    width: 30rem;
+    justify-content: end;
+    align-items: flex-end;
+    
+}
+.nav_links li:hover{
+    text-decoration: underline ;
+    cursor: pointer;
+    text-decoration-color:#02e5f9 ;
+    transition: text-decoration-color 0.3s ease-in-out;
+}
+.big_heading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #fff;
+    top: 22%;
+    /* height: 5rem; */
+    text-align: center;
+    /* bottom: 50%; */
+    /* transform: translate(-50%,50%); */
+}
+.big_heading h1{
+    font-size:70px;
+    /* height: rem; */
+    width: 60rem;
+}
+.smiles{
+    color: #ffcc3d ;
+}
+.marquee-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f8f9fa; /* Light background */
+    padding: 10px 0;
+}
+
+.marquee {
+    /* display: inline-block; */
+    white-space: nowrap;
+    animation: marquee-scroll 30s linear infinite;
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+@keyframes marquee-scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.tasty_rewards_container{
+    background-image: url(images/tasty_rewards_img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-size:79rem 52rem; */
+    width: 79rem;
+    height: 52rem;
+}
+.tasty_rewards_content{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40rem;
+}
+.tasty_smallhead{
+    font-size: 24px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.tasty_bighead h2{
+    background-color: #fff;
+    font-size: 48px;
+    display: inline; 
+}
+.tasty_link{
+
+    padding-top: 2rem;
+}
+.tasty_link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.tasty_link a:hover{
+    text-decoration: underline;
+}
+.commitments_container{
+    background-image: url(images/commitments_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 8rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* background-size:79rem 52rem; */
+    width: 79rem;
+    height: 52rem;
+}
+.commitments_content{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 40rem;
+}
+.commitments_smallhead{
+    font-size: 24px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.commitments_bighead h2{
+    background-color: #fff;
+    font-size: 48px;
+    display: inline; 
+}
+.commitments_link{
+
+    padding-top: 2rem;
+}
+.commitments_link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+}
+.commitments_link a:hover
+{
+    text-decoration: underline;
+}
+
+.pepsico_careers{
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    /* justify-content: center; */
+}
+.career_img img{
+    width: 47.4rem;
+}
+.career_details_container{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 125rem;
+    position: relative;
+}
+.career_details{
+    /* padding: 5rem; */
+    position: absolute;
+    left: 18%;
+}
+.career_smallhead
+{
+    font-size: 28px;
+}
+.careers_bighead{
+    font-size: 52px;
+}
+.career_sentence{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+.career_nav_link{
+    font-size: 18px;
+    padding-top: 1rem;
+}
+.career_nav_link a{
+    color: #000;
+    text-decoration: none;
+}
+.career_nav_link a:hover{
+    text-decoration: underline;
+}
+.pepsico_foundation
+{
+background-image: url(images/pepsico_found_img.jpg);
+background-position: center;
+background-repeat: no-repeat;
+/* display: flex; */
+position: relative;
+background-size: cover;
+width: 94.9rem;
+height: 50rem;
+}
+.foundation_flex_container{
+    position: absolute;
+    bottom: 10%;
+    left: 10rem;
+    /* padding: 2rem; */
+}
+.found_details{
+    width: 40rem;
+}
+.found_smallhead
+{
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 1rem;
+}
+
+.found_bighead h2{
+    font-size: 50px;
+    background-color: #fff;
+    background-size: 5px 4px;
+    /* line-height: 45px; */
+    display: inline; 
+}
+.found_link a{
+    padding-top: 1rem;    
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.found_link a:hover{
+text-decoration: underline;
+}
+.partner_container{
+    display: flex;
+    /* padding: 2rem; */
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    padding-bottom: 2rem;
+    /* align-items: center; */
+}
+.partner_flexbox{
+    display: flex;
+    align-items: center;
+    background-color: #ffc107;
+}
+.partner_details{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem 2rem 5rem;
+    /* width: 45rem; */
+    /* top: 200%; */
+    /* align-items: center; */
+    /* height: 25rem; */
+}
+.partner_smallhead{
+    font-size: 30px;
+}
+.partner_bighead{
+    font-size: 40px;
+}
+.partner_desc{
+    font-size: 18px;
+    width: 30rem;
+    padding-top: 1rem;
+}
+.partner_link{
+    padding-top: 2rem;
+}
+.partner_link a{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+}
+.partner_img img{
+    width: 47rem;
+}
+.bottom_topic_container
+{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+ .topic_heading{
+    padding: 1rem 1rem 0rem 1rem;
+ }
+.topic_img img{
+width: 30rem;
+height: 20rem;
+}
+/* .each_topic{
+    width: 20%;
+} */
+.topic_subhead ul{ 
+    list-style: none;
+    margin-left: -1.5rem;
+}
+.topic_subhead{
+    text-align: left;
+}
+.topic_subhead li{
+    padding-top: 1rem;
+}
+.topic_subhead li:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.footer_container{
+    background-color: #004c97;
+    padding: 4rem;
+}
+.footer_middle{
+    display: flex;
+
+}
+.footer_links{
+    width: 70rem;
+}
+.footer_links_lists ul{
+    display: flex;
+    color: #fff;
+    list-style: none;
+    font-size: 16px;
+    padding: 1rem;
+}
+.footer_links_lists li{
+    width: 10rem;
+    padding-top: 1rem;
+}
+.footer_links_lists li:hover{
+text-decoration: underline;
+text-decoration-color: #02e5f9;
+}
+.social_links{
+    display: flex;
+    /* justify-content: end; */
+}
+.social_links a{
+    padding-left: 1rem;
+    font-size: 20px;
+    color: #fff;
+}
+.footer_bottom{
+    color: #fff;
+    display: flex;
+    position: relative;
+    padding-top: 5rem;
+}
+.footer_bottom_nav{
+    display: flex;
+    gap: 2rem;
+    align-items: flex-end;
+    font-size: 12px;
+    padding-bottom: 2rem;
+}
+.footer_bottom_nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer_bottom_nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #02e5f9;
+}
+.footer_more_sites{
+    display: flex;
+    /* justify-content: center; */
+    position: absolute;
+    right: 6%;
+    bottom: 0;
+    /* margin-bottom: -3rem; */
+
+}
+.footer_more_sites ul{
+    list-style: none;
+    color: #fff;
+}
+.footer_more_sites li
+{
+    padding-top: 1rem;
+
+}
+.footer_more_sites a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    /* padding-top: 2rem; */
+}
+.footer_more_sites li:hover{
+text-decoration: underline;
+text-decoration-color: #02e5f9;
+}
